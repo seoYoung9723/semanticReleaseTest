@@ -22,6 +22,13 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
 
+      - name: Release
+        working-directory: main
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       # - name: Semantic Release
       #   uses: cycjimmy/semantic-release-action@v3
       #   env:
