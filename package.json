@@ -18,5 +18,8 @@
   "homepage": "https://github.com/seoYoung9723/testRepo#readme",
   "dependencies": {
     "jest": "^29.3.1"
+  },
+  "devDependencies": {
+    "@semantic-release/github": "^8.0.7"
   }
 }
