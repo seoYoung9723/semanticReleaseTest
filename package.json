@@ -15,7 +15,6 @@
   "bugs": {
     "url": "https://github.com/seoYoung9723/testRepo/issues"
   },
-  "homepage": "https://github.com/seoYoung9723/testRepo#readme",
   "dependencies": {
     "jest": "^29.3.1"
   },
