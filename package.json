@@ -1,14 +1,15 @@
 {
-  "name": "y",
-  "version": "1.0.0",
+  "name": "test97repo",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seoYoung9723/testRepo.git"
+    "url": "https://github.com/seoYoung9723/testRepo.git"
   },
   "author": "",
   "license": "ISC",
@@ -19,7 +20,8 @@
     "jest": "^29.3.1"
   },
   "devDependencies": {
-    "@semantic-release/github": "^8.0.7"
+    "@semantic-release/github": "^8.0.7",
+    "semantic-release": "^19.0.5"
   },
   "release": {
     "branches": [
